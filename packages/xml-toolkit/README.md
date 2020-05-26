@@ -1,5 +1,7 @@
 # XML Toolkit
 
+some other dummy change
+
 ## Description
 
 The XML Toolkit extension validates the syntax of XML files.
