@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/sap/xml-tools/compare/v0.3.0...v5.0.0) (2020-05-26)
+
+### Bug Fixes
+
+- add npmignore file to each package ([5bbf209](https://github.com/sap/xml-tools/commit/5bbf209))
+- new property added to ast interface ([#35](https://github.com/sap/xml-tools/issues/35)) ([d7fd672](https://github.com/sap/xml-tools/commit/d7fd672))
+
+### Features
+
+- better Handling of Open/Close Body ranges ([0751a7e](https://github.com/sap/xml-tools/commit/0751a7e))
+- open tag body range added ([#34](https://github.com/sap/xml-tools/issues/34)) ([5414111](https://github.com/sap/xml-tools/commit/5414111))
+- **ast:** added `.syntax.isSelfClosing` property on an XMLElement node ([#164](https://github.com/sap/xml-tools/issues/164)) ([bfc448b](https://github.com/sap/xml-tools/commit/bfc448b))
+- **ast:** attributesRange and guessedAttributeRange support ([8ce840d](https://github.com/sap/xml-tools/commit/8ce840d)), closes [#51](https://github.com/sap/xml-tools/issues/51)
+- **ast:** element Namespaces are now represented as Records in a Map ([f9f6fdc](https://github.com/sap/xml-tools/commit/f9f6fdc))
+- **common:** add utility functions for xmlns attributes ([#173](https://github.com/sap/xml-tools/issues/173)) ([20d6c09](https://github.com/sap/xml-tools/commit/20d6c09))
+- **parser:** support Basic DocType Declarations ([5b4db21](https://github.com/sap/xml-tools/commit/5b4db21))
+
+### BREAKING CHANGES
+
+- **ast:** The `namespaces` property of an XMLElement is now a Map/Dictionary not an Array.
+- **parser:** Implementing XmlCstVisitor now requires implementing two additional methods:
+  (docTypeDecl and externalID)
+- **ast:** buildAst now requires a tokenVector argument
+
 # [4.2.0](https://github.com/sap/xml-tools/compare/@xml-tools/ast@4.1.0...@xml-tools/ast@4.2.0) (2020-05-17)
 
 ### Features

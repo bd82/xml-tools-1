@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/sap/xml-tools/compare/v0.3.0...v5.0.0) (2020-05-26)
+
+### Bug Fixes
+
+- **simple-schema:** duplicate element error ([f434af8](https://github.com/sap/xml-tools/commit/f434af8))
+- **simple-schema:** fix Simple-Schema API for enumValue ([0e4fdd8](https://github.com/sap/xml-tools/commit/0e4fdd8))
+- add npmignore file to each package ([5bbf209](https://github.com/sap/xml-tools/commit/5bbf209))
+- api type definitions ([46d6c2c](https://github.com/sap/xml-tools/commit/46d6c2c))
+- remove extraneous prefix completion items ([#98](https://github.com/sap/xml-tools/issues/98)) ([9b52e70](https://github.com/sap/xml-tools/commit/9b52e70))
+- simple schema with xml namespaces ([#52](https://github.com/sap/xml-tools/issues/52)) ([bb0163e](https://github.com/sap/xml-tools/commit/bb0163e))
+
+### Features
+
+- **ast:** attributesRange and guessedAttributeRange support ([8ce840d](https://github.com/sap/xml-tools/commit/8ce840d)), closes [#51](https://github.com/sap/xml-tools/issues/51)
+- **common:** add utility functions for xmlns attributes ([#173](https://github.com/sap/xml-tools/issues/173)) ([20d6c09](https://github.com/sap/xml-tools/commit/20d6c09))
+- **content-assist:** decouple content assist from parsing ([#58](https://github.com/sap/xml-tools/issues/58)) ([3688da8](https://github.com/sap/xml-tools/commit/3688da8))
+
+### BREAKING CHANGES
+
+- **content-assist:** getSuggestions now uses ast, cst and tokenVector instead of text
+- **ast:** buildAst now requires a tokenVector argument
+
 # [2.1.0](https://github.com/sap/xml-tools/compare/@xml-tools/simple-schema@2.0.11...@xml-tools/simple-schema@2.1.0) (2020-05-17)
 
 ### Features

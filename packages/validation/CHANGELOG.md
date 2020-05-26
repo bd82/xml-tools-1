@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/sap/xml-tools/compare/v0.3.0...v5.0.0) (2020-05-26)
+
+### Bug Fixes
+
+- add npmignore file to each package ([5bbf209](https://github.com/sap/xml-tools/commit/5bbf209))
+- api type definitions ([46d6c2c](https://github.com/sap/xml-tools/commit/46d6c2c))
+
+### Features
+
+- **ast:** attributesRange and guessedAttributeRange support ([8ce840d](https://github.com/sap/xml-tools/commit/8ce840d)), closes [#51](https://github.com/sap/xml-tools/issues/51)
+
+### BREAKING CHANGES
+
+- **ast:** buildAst now requires a tokenVector argument
+
 ## [1.0.9](https://github.com/sap/xml-tools/compare/@xml-tools/validation@1.0.8...@xml-tools/validation@1.0.9) (2020-05-17)
 
 **Note:** Version bump only for package @xml-tools/validation

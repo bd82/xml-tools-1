@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/sap/xml-tools/compare/v0.3.0...v5.0.0) (2020-05-26)
+
+### Bug Fixes
+
+- **content-assist:** avoid breaking changes with new `context` arg ([c7bbdc2](https://github.com/sap/xml-tools/commit/c7bbdc2))
+- **content-assist:** crash with invalid xml ([#57](https://github.com/sap/xml-tools/issues/57)) ([774c623](https://github.com/sap/xml-tools/commit/774c623))
+- add npmignore file to each package ([5bbf209](https://github.com/sap/xml-tools/commit/5bbf209))
+- content Assist - ElementContents bug fixes ([1eba20a](https://github.com/sap/xml-tools/commit/1eba20a)), closes [#15](https://github.com/sap/xml-tools/issues/15) [#16](https://github.com/sap/xml-tools/issues/16)
+- simple schema with xml namespaces ([#52](https://github.com/sap/xml-tools/issues/52)) ([bb0163e](https://github.com/sap/xml-tools/commit/bb0163e))
+
+### Features
+
+- **ast:** attributesRange and guessedAttributeRange support ([8ce840d](https://github.com/sap/xml-tools/commit/8ce840d)), closes [#51](https://github.com/sap/xml-tools/issues/51)
+- **content assist:** improved attributes keys content assist ([3d3b7c2](https://github.com/sap/xml-tools/commit/3d3b7c2)), closes [#42](https://github.com/sap/xml-tools/issues/42)
+- **content-assist:** decouple content assist from parsing ([#58](https://github.com/sap/xml-tools/issues/58)) ([3688da8](https://github.com/sap/xml-tools/commit/3688da8))
+- **content-assist:** support optional `context` arg in `getSuggestions` ([6e5a228](https://github.com/sap/xml-tools/commit/6e5a228))
+- **parser:** support Basic DocType Declarations ([5b4db21](https://github.com/sap/xml-tools/commit/5b4db21))
+
+### BREAKING CHANGES
+
+- **parser:** Implementing XmlCstVisitor now requires implementing two additional methods:
+  (docTypeDecl and externalID)
+- **content-assist:** getSuggestions now uses ast, cst and tokenVector instead of text
+- **ast:** buildAst now requires a tokenVector argument
+
 ## [3.1.5](https://github.com/sap/xml-tools/compare/@xml-tools/content-assist@3.1.4...@xml-tools/content-assist@3.1.5) (2020-05-17)
 
 **Note:** Version bump only for package @xml-tools/content-assist

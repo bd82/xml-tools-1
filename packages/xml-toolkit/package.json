@@ -1,6 +1,6 @@
 {
   "name": "xml-toolkit",
-  "version": "1.0.1",
+  "version": "5.0.0",
   "private": true,
   "displayName": "XML Toolkit",
   "description": "XML Toolkit by SAP OSS",
@@ -34,7 +34,7 @@
     "bundle": "node ./scripts/bundle-vsix"
   },
   "dependencies": {
-    "@xml-tools/language-server": "^1.0.8",
+    "@xml-tools/language-server": "^5.0.0",
     "vscode-languageclient": "6.1.3"
   },
   "devDependencies": {

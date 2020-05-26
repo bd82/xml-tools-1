@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/SAP/xml-tools/compare/v0.3.0...v5.0.0) (2020-05-26)
+
+### Bug Fixes
+
+- add npmignore file to each package ([5bbf209](https://github.com/SAP/xml-tools/commit/5bbf209))
+- fix README.md ([472301d](https://github.com/SAP/xml-tools/commit/472301d))
+- missing import ([2a51ab9](https://github.com/SAP/xml-tools/commit/2a51ab9))
+
+### Features
+
+- **language-server:** dummy change 1 ([32a1a38](https://github.com/SAP/xml-tools/commit/32a1a38))
+
 ## [1.0.8](https://github.com/SAP/xml-tools/compare/@xml-tools/language-server@1.0.7...@xml-tools/language-server@1.0.8) (2020-05-21)
 
 **Note:** Version bump only for package @xml-tools/language-server

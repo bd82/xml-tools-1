@@ -2,7 +2,7 @@
   "packages": ["packages/*"],
   "useWorkspaces": true,
   "npmClient": "yarn",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "command": {
     "publish": {
       "conventionalCommits": true

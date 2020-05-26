@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/SAP/xml-tools/tree/master/packages/xml-toolkit/compare/v0.3.0...v5.0.0) (2020-05-26)
+
+### chore
+
+- **xml-toolkit:** first major version ([9e1f5a9](https://github.com/SAP/xml-tools/tree/master/packages/xml-toolkit/commit/9e1f5a9))
+- **xml-toolkit:** some other dummy change ([8e6cfc4](https://github.com/SAP/xml-tools/tree/master/packages/xml-toolkit/commit/8e6cfc4))
+
+### BREAKING CHANGES
+
+- **xml-toolkit:** blah
+- **xml-toolkit:** First Major Version
+
 ## [1.0.1](https://github.com/SAP/xml-tools/tree/master/packages/xml-toolkit/compare/xml-toolkit@1.0.0...xml-toolkit@1.0.1) (2020-05-26)
 
 **Note:** Version bump only for package xml-toolkit
