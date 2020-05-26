@@ -4,6 +4,8 @@
 
 XML Language Server
 
+blah dummy change
+
 Current Features:
 
 - Syntax Diagnostics.
